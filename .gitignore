@@ -1,18 +1,21 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Jenv
+.java-version
+
 # Eclipse
 .settings/
 .classpath
 .project
-bin/
 
 # IntelliJ IDEA
 .idea
 *.iml
 
-# VS Code
-.vscode
+# Visual Studio Code
+.factorypath
 
-# Maven
-target/
-
-# OS
-.DS_Store
+# Branch switching
+generated/
