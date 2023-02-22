@@ -2,13 +2,8 @@ import spark.servlet.SparkApplication;
 
 import static spark.Spark.get;
 
-public class HelloWorld implements SparkApplication {
-	public static void main(String[] args) {
-		new HelloWorld().init();
-	}
-
-	@Override
-	public void init() {
-		get("/hello", (req, res) -> "Hello World");
-	}
-}
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
